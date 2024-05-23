@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicial {
+    display: grid;
+    border: #4a4283 dashed;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagen {
+    text-align: center;
+    border: solid;
+    border-color: yellow;
+    margin: 20px;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4) 100px;
+    margin: 5px;
+    background-color: #d5d5d5;
+
+}
+
+button {
+
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
